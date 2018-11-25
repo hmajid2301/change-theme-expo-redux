@@ -1,4 +1,4 @@
 export const COLORS = {
-  RED: { name: 'RED', hexCode: '#DE5448' },
-  BLUE: { name: 'BLUE', hexCode: '#498AF4' },
+  red: { name: 'red', hexCode: '#DE5448' },
+  blue: { name: 'blue', hexCode: '#498AF4' },
 }

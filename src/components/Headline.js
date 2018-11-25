@@ -2,11 +2,11 @@ import React from "react";
 import { Text, View } from "react-native";
 
 
-const Headline = color => {
+const Headline = ({ color, text }) => (
   <View>
-    <Text style={{backgroundColor: color }}>Hello My Name is</Text>
+    <Text style={{backgroundColor: color, fontSize: 24, color: 'white', textAlign: 'center' }}>{text}</Text>
   </View>
-};
+);
 
 
 export default Headline;
